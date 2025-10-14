@@ -3,6 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+
     <groupId>com.api.test</groupId>
     <artifactId>RestAssuredDemo</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -41,15 +42,13 @@
 
     <build>
         <plugins>
-            <!-- Maven Surefire plugin for TestNG -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0</version>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.10.1</version>
                 <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>F:\Appium-XPO\APIDemo\APIDemo\src\test\java\API\testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
+                    <source>21</source>
+                    <target>21</target>
                 </configuration>
             </plugin>
         </plugins>
