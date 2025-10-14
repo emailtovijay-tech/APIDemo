@@ -2,8 +2,9 @@ package API;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.junit.Assert;
-import org.junit.Test;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
 
 public class APITest {
 
