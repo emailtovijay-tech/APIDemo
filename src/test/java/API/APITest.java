@@ -9,7 +9,6 @@ public class APITest {
 
     @Test
     public void APIDemo()
-
     {
         Response response = RestAssured.get("https://fakestoreapi.com/products");
 
