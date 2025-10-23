@@ -49,7 +49,6 @@ public class PostAPI_UsinDataProvider
             Assert.assertEquals(Status_code, 200, "Status code is not matching");
 
         }
-
         @DataProvider(name = "empdata")
         String [][] Getemployeedata()
         {
