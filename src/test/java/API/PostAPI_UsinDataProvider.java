@@ -55,7 +55,6 @@ public class PostAPI_UsinDataProvider
 
         @DataProvider(name = "empdata")
         String [][] Getemployeedata()
-
         {
             String empdata [][]  = {{"DDD", "4544", "65" }, {"FFF", "3434", "32" }, {"GFF", "4344", "65" } };
             return (empdata);
