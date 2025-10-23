@@ -41,7 +41,6 @@ public class PostAPI_UsinDataProvider
 
             // Send POST request
             Response response = httpRequest.request(Method.POST, "/create");
-
             // Print details
             System.out.println("Status Code: " +response.getStatusCode());
             System.out.println("Response Body: " +response.getBody().asString());
