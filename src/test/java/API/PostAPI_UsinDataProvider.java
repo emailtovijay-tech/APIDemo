@@ -9,7 +9,8 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class PostAPI_UsinDataProvider {
+public class PostAPI_UsinDataProvider
+{
 
         @Test(dataProvider = "empdata")
         public void PostAPI(String eName, String eSal, String eAge)
