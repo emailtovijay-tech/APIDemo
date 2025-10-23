@@ -22,7 +22,6 @@ public class PostAPI_UsinDataProvider
             RequestSpecification httpRequest = RestAssured.given();
 
             // Create JSON request body
-
             // JSONObject requestParam = new JSONObject();
             // requestParam.put("employee_name", eName);
             //requestParam.put("employee_salary", eSal);
