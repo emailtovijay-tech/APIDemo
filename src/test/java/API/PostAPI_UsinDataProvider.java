@@ -27,7 +27,6 @@ public class PostAPI_UsinDataProvider
             // requestParam.put("employee_name", eName);
             //requestParam.put("employee_salary", eSal);
             //  requestParam.put("employee_age", eAge);
-
             JSONObject requestParam = new JSONObject();
             requestParam.put("employee_name", eName);
             requestParam.put("employee_salary", eSal);
