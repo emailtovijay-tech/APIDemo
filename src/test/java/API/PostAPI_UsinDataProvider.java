@@ -35,7 +35,6 @@ public class PostAPI_UsinDataProvider
 
             // Set Content-Type header
             httpRequest.header("Content-Type", "application/json");
-
             // Attach JSON body
             httpRequest.body(requestParam.toString());
 
