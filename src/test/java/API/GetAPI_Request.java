@@ -17,7 +17,7 @@ public class GetAPI_Request
     {
         RestAssured.baseURI = "https://fakestoreapi.com";
 
-        // Basi Authentication
+        // Basic Authentication
         PreemptiveBasicAuthScheme authScheme = new PreemptiveBasicAuthScheme();
         authScheme.setUserName("username");
         authScheme.setPassword("password");
